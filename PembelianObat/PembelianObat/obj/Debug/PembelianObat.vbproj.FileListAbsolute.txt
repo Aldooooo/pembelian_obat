@@ -8,3 +8,7 @@ D:\MATERI KULIAH\Project Pak Hendro\PembelianObat\PembelianObat\obj\Debug\Pembel
 D:\MATERI KULIAH\Project Pak Hendro\PembelianObat\PembelianObat\obj\Debug\PembelianObat.exe
 D:\MATERI KULIAH\Project Pak Hendro\PembelianObat\PembelianObat\obj\Debug\PembelianObat.xml
 D:\MATERI KULIAH\Project Pak Hendro\PembelianObat\PembelianObat\obj\Debug\PembelianObat.pdb
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\bin\Debug\PembelianObat.exe.config
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.exe
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.xml
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.pdb
