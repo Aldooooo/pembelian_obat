@@ -249,8 +249,10 @@ Partial Class FPengguna
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
+        Me.IsMdiContainer = True
         Me.Name = "FPengguna"
         Me.Text = "FPengguna"
+        Me.TopMost = True
         Me.Panel3.ResumeLayout(False)
         Me.Panel3.PerformLayout()
         Me.Panel2.ResumeLayout(False)
