@@ -87,7 +87,7 @@ Partial Class FMenu
         'PembelianToolStripMenuItem
         '
         Me.PembelianToolStripMenuItem.Name = "PembelianToolStripMenuItem"
-        Me.PembelianToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
+        Me.PembelianToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PembelianToolStripMenuItem.Text = "Pemesanan"
         '
         'TransaksiToolStripMenuItem
@@ -100,7 +100,7 @@ Partial Class FMenu
         'PembayaranToolStripMenuItem
         '
         Me.PembayaranToolStripMenuItem.Name = "PembayaranToolStripMenuItem"
-        Me.PembayaranToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
+        Me.PembayaranToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PembayaranToolStripMenuItem.Text = "Pembayaran"
         '
         'BarangToolStripMenuItem
@@ -112,7 +112,7 @@ Partial Class FMenu
         'PenggunaToolStripMenuItem
         '
         Me.PenggunaToolStripMenuItem.Name = "PenggunaToolStripMenuItem"
-        Me.PenggunaToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
+        Me.PenggunaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.PenggunaToolStripMenuItem.Text = "Pengguna"
         '
         'SupplierToolStripMenuItem
@@ -140,6 +140,7 @@ Partial Class FMenu
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.Cursor = System.Windows.Forms.Cursors.Default
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Aqua
         Me.Label1.Location = New System.Drawing.Point(94, 202)
@@ -156,6 +157,7 @@ Partial Class FMenu
         Me.ClientSize = New System.Drawing.Size(647, 530)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.IsMdiContainer = True
         Me.Name = "FMenu"
         Me.Text = "FMenu"
         Me.MenuStrip1.ResumeLayout(False)

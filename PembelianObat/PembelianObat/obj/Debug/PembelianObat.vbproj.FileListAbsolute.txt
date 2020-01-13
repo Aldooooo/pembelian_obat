@@ -12,6 +12,17 @@ D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\Pemb
 D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.exe
 D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.xml
 D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.pdb
+<<<<<<< HEAD
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\bin\Debug\PembelianObat.exe
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\bin\Debug\PembelianObat.pdb
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\bin\Debug\PembelianObat.xml
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.vbprojResolveAssemblyReference.cache
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FLogin.resources
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FMenu.resources
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FPengguna.resources
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.Resources.resources
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.vbproj.GenerateResource.Cache
+=======
 D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\bin\Debug\PembelianObat.exe.config
 D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\bin\Debug\PembelianObat.exe
 D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\bin\Debug\PembelianObat.pdb
@@ -25,3 +36,7 @@ D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\Pem
 D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.exe
 D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.xml
 D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.pdb
+>>>>>>> fa41e9247d350557577ffffbd1f2d2cc05105051
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FDistributor.resources
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FPemensanan.resources
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.Distributor.resources
