@@ -1,5 +1,5 @@
 ﻿Imports System.Threading.Tasks
-Public Class Distributor
+Public Class FDistributor
     Dim lst As ListViewItem
     Dim tempID As Integer
 
@@ -11,12 +11,11 @@ Public Class Distributor
         Dim sql As String
 
         If tempID = 0 Then
-            sql = "insert into distributor (kode_distributor, nama_industri, alamat, telepon) " & _
-            "values ('" & cb_kodedistributor.Text & "' , '" & tb_nama.Text.Trim & "', " & _
-            "'" & tb_alamat.Text.Trim & "' , '" & tb_telepon.Text.Trim & "')"
+            sql = "insert into distributor (nama_industri, alamat, telepon) " &
+            "values ('" & tb_nama.Text.Trim & "', '" & tb_alamat.Text.Trim & "' , '" & tb_telepon.Text.Trim & "')"
         Else
-            sql = "update distributor set nama_industri = '" & tb_nama.Text.Trim & "', " & _
-                "alamat = '" & tb_alamat.Text.Trim & "', telepon = '" & tb_telepon.Text.Trim & "' " & _
+            sql = "update distributor set nama_industri = '" & tb_nama.Text.Trim & "', " &
+                "alamat = '" & tb_alamat.Text.Trim & "', telepon = '" & tb_telepon.Text.Trim & "' " &
                 "where kode_distributor = " & tempID
         End If
 
@@ -31,7 +30,6 @@ Public Class Distributor
 
     Private Sub kosong()
         tempID = 0
-        cb_kodedistributor.Text = Nothing
         tb_nama.Text = Nothing
         tb_alamat.Text = Nothing
         tb_telepon.Text = Nothing
@@ -60,7 +58,7 @@ Public Class Distributor
         If cari = Nothing Then
             sql = "select * from distributor"
         Else
-            sql = "select * from distributor where nama_industri like '%" & cari & "%' " & _
+            sql = "select * from distributor where nama_industri like '%" & cari & "%' " &
                     "or alamat like '%" & cari & "%' or telepon like '%" & cari & "%'"
         End If
 
@@ -78,4 +76,13 @@ Public Class Distributor
         tempID = 0
         MProgress.hideProgress(ProgressBar1)
     End Function
+
+    Private Sub ListView1_MouseDoubleClick(sender As Object, e As MouseEventArgs) Handles ListView1.MouseDoubleClick
+        With ListView1
+            tempID = .SelectedItems.Item(0).Text
+            tb_nama.Text = .SelectedItems.Item(0).SubItems(1).Text
+            tb_alamat.Text = .SelectedItems.Item(0).SubItems(2).Text
+            tb_telepon.Text = .SelectedItems.Item(0).SubItems(3).Text
+        End With
+    End Sub
 End Class
