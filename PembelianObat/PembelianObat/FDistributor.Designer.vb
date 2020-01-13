@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Distributor
+Partial Class FDistributor
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -30,9 +30,7 @@ Partial Class Distributor
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.cb_kodedistributor = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.tb_nama = New System.Windows.Forms.TextBox()
         Me.tb_alamat = New System.Windows.Forms.TextBox()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
@@ -52,7 +50,7 @@ Partial Class Distributor
         'tb_telepon
         '
         Me.tb_telepon.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.tb_telepon.Location = New System.Drawing.Point(22, 291)
+        Me.tb_telepon.Location = New System.Drawing.Point(22, 256)
         Me.tb_telepon.Name = "tb_telepon"
         Me.tb_telepon.Size = New System.Drawing.Size(178, 20)
         Me.tb_telepon.TabIndex = 13
@@ -67,9 +65,7 @@ Partial Class Distributor
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Controls.Add(Me.cb_kodedistributor)
         Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.tb_nama)
         Me.Panel1.Controls.Add(Me.tb_alamat)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Left
@@ -82,7 +78,7 @@ Partial Class Distributor
         '
         Me.Label5.AutoSize = True
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(20, 267)
+        Me.Label5.Location = New System.Drawing.Point(20, 232)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(46, 13)
         Me.Label5.TabIndex = 14
@@ -90,7 +86,7 @@ Partial Class Distributor
         '
         'ProgressBar1
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(24, 361)
+        Me.ProgressBar1.Location = New System.Drawing.Point(24, 326)
         Me.ProgressBar1.MarqueeAnimationSpeed = 50
         Me.ProgressBar1.Name = "ProgressBar1"
         Me.ProgressBar1.Size = New System.Drawing.Size(178, 10)
@@ -100,7 +96,7 @@ Partial Class Distributor
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(59, 332)
+        Me.Button2.Location = New System.Drawing.Point(59, 297)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(26, 23)
         Me.Button2.TabIndex = 11
@@ -109,7 +105,7 @@ Partial Class Distributor
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(25, 332)
+        Me.Button1.Location = New System.Drawing.Point(25, 297)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(28, 23)
         Me.Button1.TabIndex = 10
@@ -131,46 +127,26 @@ Partial Class Distributor
         '
         Me.Label3.AutoSize = True
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(21, 179)
+        Me.Label3.Location = New System.Drawing.Point(21, 144)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(39, 13)
         Me.Label3.TabIndex = 7
         Me.Label3.Text = "Alamat"
         '
-        'cb_kodedistributor
-        '
-        Me.cb_kodedistributor.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.cb_kodedistributor.FormattingEnabled = True
-        Me.cb_kodedistributor.Items.AddRange(New Object() {"Administrator", "Supervisor", "User"})
-        Me.cb_kodedistributor.Location = New System.Drawing.Point(22, 96)
-        Me.cb_kodedistributor.Name = "cb_kodedistributor"
-        Me.cb_kodedistributor.Size = New System.Drawing.Size(120, 21)
-        Me.cb_kodedistributor.TabIndex = 6
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(20, 125)
+        Me.Label2.Location = New System.Drawing.Point(20, 90)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(72, 13)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "Nama Industri"
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(20, 75)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(82, 13)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Kode Distributor"
-        '
         'tb_nama
         '
         Me.tb_nama.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.tb_nama.Location = New System.Drawing.Point(22, 149)
+        Me.tb_nama.Location = New System.Drawing.Point(22, 114)
         Me.tb_nama.Name = "tb_nama"
         Me.tb_nama.Size = New System.Drawing.Size(178, 20)
         Me.tb_nama.TabIndex = 1
@@ -178,7 +154,7 @@ Partial Class Distributor
         'tb_alamat
         '
         Me.tb_alamat.ForeColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.tb_alamat.Location = New System.Drawing.Point(22, 207)
+        Me.tb_alamat.Location = New System.Drawing.Point(22, 172)
         Me.tb_alamat.Multiline = True
         Me.tb_alamat.Name = "tb_alamat"
         Me.tb_alamat.Size = New System.Drawing.Size(178, 50)
@@ -229,6 +205,7 @@ Partial Class Distributor
         Me.ListView1.FullRowSelect = True
         Me.ListView1.GridLines = True
         Me.ListView1.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.Nonclickable
+        Me.ListView1.HideSelection = False
         Me.ListView1.HoverSelection = True
         Me.ListView1.Location = New System.Drawing.Point(241, 47)
         Me.ListView1.Name = "ListView1"
@@ -257,7 +234,7 @@ Partial Class Distributor
         Me.Telepon.Text = "Telepon"
         Me.Telepon.Width = 100
         '
-        'Distributor
+        'FDistributor
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -265,7 +242,7 @@ Partial Class Distributor
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Panel3)
         Me.Controls.Add(Me.Panel2)
-        Me.Name = "Distributor"
+        Me.Name = "FDistributor"
         Me.Text = "Distributor"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
@@ -283,9 +260,7 @@ Partial Class Distributor
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents cb_kodedistributor As System.Windows.Forms.ComboBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents tb_nama As System.Windows.Forms.TextBox
     Friend WithEvents tb_alamat As System.Windows.Forms.TextBox
     Friend WithEvents TextBox3 As System.Windows.Forms.TextBox

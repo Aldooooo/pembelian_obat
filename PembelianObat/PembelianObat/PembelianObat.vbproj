@@ -73,10 +73,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Distributor.Designer.vb">
-      <DependentUpon>Distributor.vb</DependentUpon>
+    <Compile Include="FDistributor.Designer.vb">
+      <DependentUpon>FDistributor.vb</DependentUpon>
     </Compile>
-    <Compile Include="Distributor.vb">
+    <Compile Include="FDistributor.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FLogin.Designer.vb">
@@ -124,8 +124,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Distributor.resx">
-      <DependentUpon>Distributor.vb</DependentUpon>
+    <EmbeddedResource Include="FDistributor.resx">
+      <DependentUpon>FDistributor.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FLogin.resx">
       <DependentUpon>FLogin.vb</DependentUpon>
