@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Distributor.Designer.vb">
+      <DependentUpon>Distributor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Distributor.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FLogin.Designer.vb">
       <DependentUpon>FLogin.vb</DependentUpon>
     </Compile>
@@ -84,6 +90,12 @@
     </Compile>
     <Compile Include="FMenu.Designer.vb">
       <DependentUpon>FMenu.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPemensanan.Designer.vb">
+      <DependentUpon>FPemensanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FPemensanan.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FPengguna.Designer.vb">
@@ -112,11 +124,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Distributor.resx">
+      <DependentUpon>Distributor.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FLogin.resx">
       <DependentUpon>FLogin.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FMenu.resx">
       <DependentUpon>FMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPemensanan.resx">
+      <DependentUpon>FPemensanan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FPengguna.resx">
       <DependentUpon>FPengguna.vb</DependentUpon>
