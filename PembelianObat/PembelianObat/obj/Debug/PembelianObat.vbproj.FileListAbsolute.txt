@@ -40,3 +40,7 @@ D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\Pem
 D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FDistributor.resources
 D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FPemensanan.resources
 D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.Distributor.resources
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FObat.resources
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FPemesananDetail.resources
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FPembayaran.resources
+D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FPemesanan.resources
