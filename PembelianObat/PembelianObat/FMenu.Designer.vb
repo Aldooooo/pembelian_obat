@@ -87,7 +87,7 @@ Partial Class FMenu
         'PembelianToolStripMenuItem
         '
         Me.PembelianToolStripMenuItem.Name = "PembelianToolStripMenuItem"
-        Me.PembelianToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PembelianToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.PembelianToolStripMenuItem.Text = "Pemesanan"
         '
         'TransaksiToolStripMenuItem
@@ -100,13 +100,13 @@ Partial Class FMenu
         'PembayaranToolStripMenuItem
         '
         Me.PembayaranToolStripMenuItem.Name = "PembayaranToolStripMenuItem"
-        Me.PembayaranToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PembayaranToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
         Me.PembayaranToolStripMenuItem.Text = "Pembayaran"
         '
         'BarangToolStripMenuItem
         '
         Me.BarangToolStripMenuItem.Name = "BarangToolStripMenuItem"
-        Me.BarangToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
+        Me.BarangToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.BarangToolStripMenuItem.Text = "Barang"
         '
         'PenggunaToolStripMenuItem
@@ -118,7 +118,7 @@ Partial Class FMenu
         'SupplierToolStripMenuItem
         '
         Me.SupplierToolStripMenuItem.Name = "SupplierToolStripMenuItem"
-        Me.SupplierToolStripMenuItem.Size = New System.Drawing.Size(130, 22)
+        Me.SupplierToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.SupplierToolStripMenuItem.Text = "Distributor"
         '
         'DataToolStripMenuItem
@@ -141,11 +141,11 @@ Partial Class FMenu
         '
         Me.Label1.AutoSize = True
         Me.Label1.Cursor = System.Windows.Forms.Cursors.Default
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 24.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Aqua
-        Me.Label1.Location = New System.Drawing.Point(94, 202)
+        Me.Label1.Location = New System.Drawing.Point(212, 24)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(428, 38)
+        Me.Label1.Size = New System.Drawing.Size(218, 20)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "MENU PEMBELIAN OBAT"
         '
