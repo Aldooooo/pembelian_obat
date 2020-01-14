@@ -12,3 +12,4 @@ D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\Pem
 D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.exe
 D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.xml
 D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.pdb
+D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.vbprojAssemblyReference.cache
