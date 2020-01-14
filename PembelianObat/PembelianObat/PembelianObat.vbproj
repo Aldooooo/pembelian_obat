@@ -49,10 +49,14 @@
     <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
     <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -73,6 +77,36 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FCDistributor.Designer.vb">
+      <DependentUpon>FCDistributor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FCDistributor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCObat.Designer.vb">
+      <DependentUpon>FCObat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FCObat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCPembayaran.Designer.vb">
+      <DependentUpon>FCPembayaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FCPembayaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCPemesanan.Designer.vb">
+      <DependentUpon>FCPemesanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FCPemesanan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCPrint.Designer.vb">
+      <DependentUpon>FCPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FCPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FDistributor.Designer.vb">
       <DependentUpon>FDistributor.vb</DependentUpon>
     </Compile>
@@ -92,10 +126,34 @@
       <DependentUpon>FMenu.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FPemensanan.Designer.vb">
-      <DependentUpon>FPemensanan.vb</DependentUpon>
+    <Compile Include="FObat.Designer.vb">
+      <DependentUpon>FObat.vb</DependentUpon>
     </Compile>
-    <Compile Include="FPemensanan.vb">
+    <Compile Include="FObat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPembayaran.Designer.vb">
+      <DependentUpon>FPembayaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FPembayaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPembayaranObat.Designer.vb">
+      <DependentUpon>FPembayaranObat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FPembayaranObat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPemesanan.Designer.vb">
+      <DependentUpon>FPemesanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FPemesanan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FPemesananObat.Designer.vb">
+      <DependentUpon>FPemesananObat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FPemesananObat.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FPengguna.Designer.vb">
@@ -124,6 +182,21 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FCDistributor.resx">
+      <DependentUpon>FCDistributor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCObat.resx">
+      <DependentUpon>FCObat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCPembayaran.resx">
+      <DependentUpon>FCPembayaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCPemesanan.resx">
+      <DependentUpon>FCPemesanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCPrint.resx">
+      <DependentUpon>FCPrint.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FDistributor.resx">
       <DependentUpon>FDistributor.vb</DependentUpon>
     </EmbeddedResource>
@@ -133,8 +206,20 @@
     <EmbeddedResource Include="FMenu.resx">
       <DependentUpon>FMenu.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FPemensanan.resx">
-      <DependentUpon>FPemensanan.vb</DependentUpon>
+    <EmbeddedResource Include="FObat.resx">
+      <DependentUpon>FObat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPembayaran.resx">
+      <DependentUpon>FPembayaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPembayaranObat.resx">
+      <DependentUpon>FPembayaranObat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPemesanan.resx">
+      <DependentUpon>FPemesanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FPemesananObat.resx">
+      <DependentUpon>FPemesananObat.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FPengguna.resx">
       <DependentUpon>FPengguna.vb</DependentUpon>

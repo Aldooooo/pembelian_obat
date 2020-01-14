@@ -197,7 +197,7 @@ Partial Class FPembayaran
         '
         'Panel3
         '
-        Me.Panel3.BackColor = System.Drawing.Color.LightSlateGray
+        Me.Panel3.BackColor = System.Drawing.Color.DodgerBlue
         Me.Panel3.Controls.Add(Me.ComboBox1)
         Me.Panel3.Controls.Add(Me.Label14)
         Me.Panel3.Controls.Add(Me.TextBox12)
