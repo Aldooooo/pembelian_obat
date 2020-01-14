@@ -92,10 +92,10 @@
       <DependentUpon>FMenu.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FPemensanan.Designer.vb">
-      <DependentUpon>FPemensanan.vb</DependentUpon>
+    <Compile Include="FPemesanan.Designer.vb">
+      <DependentUpon>FPemesanan.vb</DependentUpon>
     </Compile>
-    <Compile Include="FPemensanan.vb">
+    <Compile Include="FPemesanan.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FPengguna.Designer.vb">
@@ -133,8 +133,8 @@
     <EmbeddedResource Include="FMenu.resx">
       <DependentUpon>FMenu.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FPemensanan.resx">
-      <DependentUpon>FPemensanan.vb</DependentUpon>
+    <EmbeddedResource Include="FPemesanan.resx">
+      <DependentUpon>FPemesanan.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FPengguna.resx">
       <DependentUpon>FPengguna.vb</DependentUpon>
