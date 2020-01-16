@@ -12,3 +12,7 @@ D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\Pem
 D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.exe
 D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.xml
 D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.pdb
+C:\Users\Dimas\Documents\GitHub\pembelian_obat\PembelianObat\PembelianObat\bin\Debug\PembelianObat.exe.config
+C:\Users\Dimas\Documents\GitHub\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.exe
+C:\Users\Dimas\Documents\GitHub\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.xml
+C:\Users\Dimas\Documents\GitHub\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.pdb
