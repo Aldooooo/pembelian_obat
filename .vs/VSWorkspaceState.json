@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PembelianObat"
+    "\\PembelianObat",
+    "\\PembelianObat\\PembelianObat",
+    "\\PembelianObat\\PembelianObat\\My Project"
   ],
-  "SelectedNode": "\\PembelianObat\\PembelianObat.sln",
+  "SelectedNode": "\\PembelianObat\\PembelianObat\\FPengguna.vb",
   "PreviewInSolutionExplorer": false
 }

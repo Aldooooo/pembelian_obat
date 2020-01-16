@@ -77,6 +77,84 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CRDetailPembayaran1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRDetailPembayaran.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CRDetailPemesanan1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRDetailPemesanan.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CRdistributor1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRdistributor.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CRobat1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRobat.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CRpembayaranHeader1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRpembayaranHeader.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CRpemesananHeader1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRpemesananHeader.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CRpengguna1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRpengguna.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FCDistributor.Designer.vb">
+      <DependentUpon>FCDistributor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FCDistributor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCObat.Designer.vb">
+      <DependentUpon>FCObat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FCObat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCPembayaran.Designer.vb">
+      <DependentUpon>FCPembayaran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FCPembayaran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCPemesanan.Designer.vb">
+      <DependentUpon>FCPemesanan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FCPemesanan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCPengguna.Designer.vb">
+      <DependentUpon>FCPengguna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FCPengguna.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FCPrint.Designer.vb">
+      <DependentUpon>FCPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FCPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FDistributor.Designer.vb">
       <DependentUpon>FDistributor.vb</DependentUpon>
     </Compile>
@@ -152,6 +230,52 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="CRDetailPembayaran.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRDetailPembayaran1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRDetailPemesanan.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRDetailPemesanan1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRdistributor.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRdistributor1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRobat.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRobat1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRpembayaranHeader.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRpembayaranHeader1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRpemesananHeader.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRpemesananHeader1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRpengguna.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRpengguna1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCDistributor.resx">
+      <DependentUpon>FCDistributor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCObat.resx">
+      <DependentUpon>FCObat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCPembayaran.resx">
+      <DependentUpon>FCPembayaran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCPemesanan.resx">
+      <DependentUpon>FCPemesanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCPengguna.resx">
+      <DependentUpon>FCPengguna.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCPrint.resx">
+      <DependentUpon>FCPrint.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FDistributor.resx">
       <DependentUpon>FDistributor.vb</DependentUpon>
     </EmbeddedResource>

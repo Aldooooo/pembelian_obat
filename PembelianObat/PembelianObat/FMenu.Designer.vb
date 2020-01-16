@@ -23,7 +23,6 @@ Partial Class FMenu
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.PenggunaToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.DetailPembelianToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.PembeliToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BarangToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ReportToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -33,41 +32,35 @@ Partial Class FMenu
         Me.TransaksiToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PembayaranToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BarangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PenggunaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SupplierToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.DataToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.PenggunaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
         'PenggunaToolStripMenuItem2
         '
         Me.PenggunaToolStripMenuItem2.Name = "PenggunaToolStripMenuItem2"
-        Me.PenggunaToolStripMenuItem2.Size = New System.Drawing.Size(163, 22)
-        Me.PenggunaToolStripMenuItem2.Text = "Pengguna"
-        '
-        'DetailPembelianToolStripMenuItem1
-        '
-        Me.DetailPembelianToolStripMenuItem1.Name = "DetailPembelianToolStripMenuItem1"
-        Me.DetailPembelianToolStripMenuItem1.Size = New System.Drawing.Size(163, 22)
-        Me.DetailPembelianToolStripMenuItem1.Text = "Detail Pembelian"
+        Me.PenggunaToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
+        Me.PenggunaToolStripMenuItem2.Text = "Distributor"
         '
         'PembeliToolStripMenuItem
         '
         Me.PembeliToolStripMenuItem.Name = "PembeliToolStripMenuItem"
-        Me.PembeliToolStripMenuItem.Size = New System.Drawing.Size(163, 22)
-        Me.PembeliToolStripMenuItem.Text = "Pembelian"
+        Me.PembeliToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PembeliToolStripMenuItem.Text = "Pemesanan"
         '
         'BarangToolStripMenuItem2
         '
         Me.BarangToolStripMenuItem2.Name = "BarangToolStripMenuItem2"
-        Me.BarangToolStripMenuItem2.Size = New System.Drawing.Size(163, 22)
-        Me.BarangToolStripMenuItem2.Text = "Barang"
+        Me.BarangToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
+        Me.BarangToolStripMenuItem2.Text = "Obat"
         '
         'ReportToolStripMenuItem
         '
-        Me.ReportToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BarangToolStripMenuItem2, Me.PembeliToolStripMenuItem, Me.DetailPembelianToolStripMenuItem1, Me.SupplierToolStripMenuItem2, Me.PenggunaToolStripMenuItem2})
+        Me.ReportToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BarangToolStripMenuItem2, Me.PembeliToolStripMenuItem, Me.SupplierToolStripMenuItem2, Me.PenggunaToolStripMenuItem2})
         Me.ReportToolStripMenuItem.Name = "ReportToolStripMenuItem"
         Me.ReportToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
         Me.ReportToolStripMenuItem.Text = "Report"
@@ -75,8 +68,8 @@ Partial Class FMenu
         'SupplierToolStripMenuItem2
         '
         Me.SupplierToolStripMenuItem2.Name = "SupplierToolStripMenuItem2"
-        Me.SupplierToolStripMenuItem2.Size = New System.Drawing.Size(163, 22)
-        Me.SupplierToolStripMenuItem2.Text = "Supplier"
+        Me.SupplierToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
+        Me.SupplierToolStripMenuItem2.Text = "Pembayaran"
         '
         'KeluarToolStripMenuItem
         '
@@ -87,7 +80,7 @@ Partial Class FMenu
         'PembelianToolStripMenuItem
         '
         Me.PembelianToolStripMenuItem.Name = "PembelianToolStripMenuItem"
-        Me.PembelianToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
+        Me.PembelianToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PembelianToolStripMenuItem.Text = "Pemesanan"
         '
         'TransaksiToolStripMenuItem
@@ -100,30 +93,24 @@ Partial Class FMenu
         'PembayaranToolStripMenuItem
         '
         Me.PembayaranToolStripMenuItem.Name = "PembayaranToolStripMenuItem"
-        Me.PembayaranToolStripMenuItem.Size = New System.Drawing.Size(140, 22)
+        Me.PembayaranToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PembayaranToolStripMenuItem.Text = "Pembayaran"
         '
         'BarangToolStripMenuItem
         '
         Me.BarangToolStripMenuItem.Name = "BarangToolStripMenuItem"
-        Me.BarangToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.BarangToolStripMenuItem.Text = "Barang"
-        '
-        'PenggunaToolStripMenuItem
-        '
-        Me.PenggunaToolStripMenuItem.Name = "PenggunaToolStripMenuItem"
-        Me.PenggunaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.PenggunaToolStripMenuItem.Text = "Pengguna"
+        Me.BarangToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.BarangToolStripMenuItem.Text = "Obat"
         '
         'SupplierToolStripMenuItem
         '
         Me.SupplierToolStripMenuItem.Name = "SupplierToolStripMenuItem"
-        Me.SupplierToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.SupplierToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SupplierToolStripMenuItem.Text = "Distributor"
         '
         'DataToolStripMenuItem
         '
-        Me.DataToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SupplierToolStripMenuItem, Me.PenggunaToolStripMenuItem, Me.BarangToolStripMenuItem})
+        Me.DataToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SupplierToolStripMenuItem, Me.BarangToolStripMenuItem, Me.PenggunaToolStripMenuItem})
         Me.DataToolStripMenuItem.Name = "DataToolStripMenuItem"
         Me.DataToolStripMenuItem.Size = New System.Drawing.Size(43, 20)
         Me.DataToolStripMenuItem.Text = "Data"
@@ -133,7 +120,7 @@ Partial Class FMenu
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.DataToolStripMenuItem, Me.TransaksiToolStripMenuItem, Me.KeluarToolStripMenuItem, Me.ReportToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(647, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1062, 24)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -149,12 +136,18 @@ Partial Class FMenu
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "MENU PEMBELIAN OBAT"
         '
+        'PenggunaToolStripMenuItem
+        '
+        Me.PenggunaToolStripMenuItem.Name = "PenggunaToolStripMenuItem"
+        Me.PenggunaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PenggunaToolStripMenuItem.Text = "Pengguna"
+        '
         'FMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.WindowFrame
-        Me.ClientSize = New System.Drawing.Size(647, 530)
+        Me.BackColor = System.Drawing.Color.DarkMagenta
+        Me.ClientSize = New System.Drawing.Size(1062, 635)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.IsMdiContainer = True
@@ -167,7 +160,6 @@ Partial Class FMenu
 
     End Sub
     Friend WithEvents PenggunaToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents DetailPembelianToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PembeliToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents BarangToolStripMenuItem2 As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ReportToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
@@ -176,11 +168,10 @@ Partial Class FMenu
     Friend WithEvents PembelianToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents TransaksiToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents BarangToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents PenggunaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents SupplierToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents DataToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents MenuStrip1 As System.Windows.Forms.MenuStrip
     Friend WithEvents PembayaranToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents Label1 As System.Windows.Forms.Label
-
+    Friend WithEvents PenggunaToolStripMenuItem As ToolStripMenuItem
 End Class

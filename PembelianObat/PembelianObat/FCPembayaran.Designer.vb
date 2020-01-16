@@ -33,20 +33,20 @@ Partial Class FCPembayaran
         Me.CrystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default
         Me.CrystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.CrystalReportViewer1.Location = New System.Drawing.Point(0, 0)
-        Me.CrystalReportViewer1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.CrystalReportViewer1.Name = "CrystalReportViewer1"
         Me.CrystalReportViewer1.ReportSource = Me.CRpembayaranHeader1
-        Me.CrystalReportViewer1.Size = New System.Drawing.Size(1095, 693)
+        Me.CrystalReportViewer1.Size = New System.Drawing.Size(821, 563)
         Me.CrystalReportViewer1.TabIndex = 0
-        Me.CrystalReportViewer1.ToolPanelWidth = 267
+        '
+        'CRpembayaranHeader1
+        '
         '
         'FCPembayaran
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1095, 693)
+        Me.ClientSize = New System.Drawing.Size(821, 563)
         Me.Controls.Add(Me.CrystalReportViewer1)
-        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "FCPembayaran"
         Me.Text = "FCPembayaran"
         Me.ResumeLayout(False)
