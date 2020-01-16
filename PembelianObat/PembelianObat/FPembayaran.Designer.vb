@@ -37,6 +37,23 @@ Partial Class FPembayaran
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Label14 = New System.Windows.Forms.Label()
+        Me.TextBox12 = New System.Windows.Forms.TextBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.TextBox11 = New System.Windows.Forms.TextBox()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.TextBox10 = New System.Windows.Forms.TextBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.TextBox9 = New System.Windows.Forms.TextBox()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.TextBox8 = New System.Windows.Forms.TextBox()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.TextBox5 = New System.Windows.Forms.TextBox()
@@ -45,23 +62,6 @@ Partial Class FPembayaran
         Me.HapusToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.ListView1 = New System.Windows.Forms.ListView()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.TextBox8 = New System.Windows.Forms.TextBox()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox9 = New System.Windows.Forms.TextBox()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.TextBox10 = New System.Windows.Forms.TextBox()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.TextBox11 = New System.Windows.Forms.TextBox()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.TextBox12 = New System.Windows.Forms.TextBox()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Label14 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Panel1.SuspendLayout()
         Me.Panel3.SuspendLayout()
         Me.ContextMenuStrip1.SuspendLayout()
@@ -224,6 +224,143 @@ Partial Class FPembayaran
         Me.Panel3.Size = New System.Drawing.Size(697, 156)
         Me.Panel3.TabIndex = 7
         '
+        'ComboBox1
+        '
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Location = New System.Drawing.Point(527, 129)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.TabIndex = 30
+        '
+        'Label14
+        '
+        Me.Label14.AutoSize = True
+        Me.Label14.Location = New System.Drawing.Point(439, 129)
+        Me.Label14.Name = "Label14"
+        Me.Label14.Size = New System.Drawing.Size(82, 13)
+        Me.Label14.TabIndex = 29
+        Me.Label14.Text = "Kode Distributor"
+        '
+        'TextBox12
+        '
+        Me.TextBox12.Location = New System.Drawing.Point(81, 124)
+        Me.TextBox12.Name = "TextBox12"
+        Me.TextBox12.Size = New System.Drawing.Size(145, 20)
+        Me.TextBox12.TabIndex = 28
+        '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Location = New System.Drawing.Point(20, 124)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(55, 13)
+        Me.Label13.TabIndex = 27
+        Me.Label13.Text = "Nomor SP"
+        '
+        'TextBox11
+        '
+        Me.TextBox11.Location = New System.Drawing.Point(527, 89)
+        Me.TextBox11.Multiline = True
+        Me.TextBox11.Name = "TextBox11"
+        Me.TextBox11.Size = New System.Drawing.Size(145, 34)
+        Me.TextBox11.TabIndex = 26
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Location = New System.Drawing.Point(439, 92)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(62, 13)
+        Me.Label12.TabIndex = 25
+        Me.Label12.Text = "Keterangan"
+        '
+        'TextBox10
+        '
+        Me.TextBox10.Location = New System.Drawing.Point(81, 95)
+        Me.TextBox10.Name = "TextBox10"
+        Me.TextBox10.Size = New System.Drawing.Size(145, 20)
+        Me.TextBox10.TabIndex = 24
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(29, 96)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(51, 13)
+        Me.Label11.TabIndex = 23
+        Me.Label11.Text = "Penerima"
+        '
+        'TextBox9
+        '
+        Me.TextBox9.Location = New System.Drawing.Point(527, 61)
+        Me.TextBox9.Name = "TextBox9"
+        Me.TextBox9.Size = New System.Drawing.Size(145, 20)
+        Me.TextBox9.TabIndex = 22
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Location = New System.Drawing.Point(439, 64)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(82, 13)
+        Me.Label10.TabIndex = 21
+        Me.Label10.Text = "Jumlah Tagihan"
+        '
+        'TextBox8
+        '
+        Me.TextBox8.Location = New System.Drawing.Point(527, 35)
+        Me.TextBox8.Name = "TextBox8"
+        Me.TextBox8.Size = New System.Drawing.Size(145, 20)
+        Me.TextBox8.TabIndex = 20
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(446, 38)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(58, 13)
+        Me.Label5.TabIndex = 19
+        Me.Label5.Text = "Biaya Kirim"
+        '
+        'TextBox4
+        '
+        Me.TextBox4.Location = New System.Drawing.Point(527, 9)
+        Me.TextBox4.Name = "TextBox4"
+        Me.TextBox4.Size = New System.Drawing.Size(145, 20)
+        Me.TextBox4.TabIndex = 18
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(27, 70)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(40, 13)
+        Me.Label4.TabIndex = 17
+        Me.Label4.Text = "Total 2"
+        '
+        'TextBox3
+        '
+        Me.TextBox3.Location = New System.Drawing.Point(81, 67)
+        Me.TextBox3.Name = "TextBox3"
+        Me.TextBox3.Size = New System.Drawing.Size(145, 20)
+        Me.TextBox3.TabIndex = 16
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(27, 44)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(53, 13)
+        Me.Label3.TabIndex = 15
+        Me.Label3.Text = "Potongan"
+        '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(81, 41)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(145, 20)
+        Me.TextBox1.TabIndex = 14
+        '
         'Label7
         '
         Me.Label7.AutoSize = True
@@ -280,149 +417,11 @@ Partial Class FPembayaran
         '
         'ListView1
         '
-        Me.ListView1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ListView1.Location = New System.Drawing.Point(10, 10)
+        Me.ListView1.Location = New System.Drawing.Point(10, 112)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(677, 368)
+        Me.ListView1.Size = New System.Drawing.Size(677, 114)
         Me.ListView1.TabIndex = 0
         Me.ListView1.UseCompatibleStateImageBehavior = False
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(27, 44)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(53, 13)
-        Me.Label3.TabIndex = 15
-        Me.Label3.Text = "Potongan"
-        '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(81, 41)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(145, 20)
-        Me.TextBox1.TabIndex = 14
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(27, 70)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(40, 13)
-        Me.Label4.TabIndex = 17
-        Me.Label4.Text = "Total 2"
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(81, 67)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(145, 20)
-        Me.TextBox3.TabIndex = 16
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(527, 9)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(145, 20)
-        Me.TextBox4.TabIndex = 18
-        '
-        'TextBox8
-        '
-        Me.TextBox8.Location = New System.Drawing.Point(527, 35)
-        Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(145, 20)
-        Me.TextBox8.TabIndex = 20
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(446, 38)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(58, 13)
-        Me.Label5.TabIndex = 19
-        Me.Label5.Text = "Biaya Kirim"
-        '
-        'TextBox9
-        '
-        Me.TextBox9.Location = New System.Drawing.Point(527, 61)
-        Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(145, 20)
-        Me.TextBox9.TabIndex = 22
-        '
-        'Label10
-        '
-        Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(439, 64)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(82, 13)
-        Me.Label10.TabIndex = 21
-        Me.Label10.Text = "Jumlah Tagihan"
-        '
-        'TextBox10
-        '
-        Me.TextBox10.Location = New System.Drawing.Point(81, 95)
-        Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(145, 20)
-        Me.TextBox10.TabIndex = 24
-        '
-        'Label11
-        '
-        Me.Label11.AutoSize = True
-        Me.Label11.Location = New System.Drawing.Point(29, 96)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(51, 13)
-        Me.Label11.TabIndex = 23
-        Me.Label11.Text = "Penerima"
-        '
-        'TextBox11
-        '
-        Me.TextBox11.Location = New System.Drawing.Point(527, 89)
-        Me.TextBox11.Multiline = True
-        Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(145, 34)
-        Me.TextBox11.TabIndex = 26
-        '
-        'Label12
-        '
-        Me.Label12.AutoSize = True
-        Me.Label12.Location = New System.Drawing.Point(439, 92)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(62, 13)
-        Me.Label12.TabIndex = 25
-        Me.Label12.Text = "Keterangan"
-        '
-        'TextBox12
-        '
-        Me.TextBox12.Location = New System.Drawing.Point(81, 124)
-        Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(145, 20)
-        Me.TextBox12.TabIndex = 28
-        '
-        'Label13
-        '
-        Me.Label13.AutoSize = True
-        Me.Label13.Location = New System.Drawing.Point(20, 124)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(55, 13)
-        Me.Label13.TabIndex = 27
-        Me.Label13.Text = "Nomor SP"
-        '
-        'Label14
-        '
-        Me.Label14.AutoSize = True
-        Me.Label14.Location = New System.Drawing.Point(439, 129)
-        Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(82, 13)
-        Me.Label14.TabIndex = 29
-        Me.Label14.Text = "Kode Distributor"
-        '
-        'ComboBox1
-        '
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Location = New System.Drawing.Point(527, 129)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
-        Me.ComboBox1.TabIndex = 30
         '
         'FPembayaran
         '

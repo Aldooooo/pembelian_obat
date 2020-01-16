@@ -101,6 +101,12 @@
     <Compile Include="FCPemesanan.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FCPengguna.Designer.vb">
+      <DependentUpon>FCPengguna.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FCPengguna.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FCPrint.Designer.vb">
       <DependentUpon>FCPrint.vb</DependentUpon>
     </Compile>
@@ -193,6 +199,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FCPemesanan.resx">
       <DependentUpon>FCPemesanan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FCPengguna.resx">
+      <DependentUpon>FCPengguna.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FCPrint.resx">
       <DependentUpon>FCPrint.vb</DependentUpon>
