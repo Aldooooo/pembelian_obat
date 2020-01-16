@@ -27,3 +27,14 @@ D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\Pemb
 D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FPengguna.resources
 D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.Resources.resources
 D:\MATERI KULIAH\Project Pak Hendro\New folder\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.vbproj.GenerateResource.Cache
+D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.vbprojAssemblyReference.cache
+D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FCDistributor.resources
+D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FCObat.resources
+D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FCPembayaran.resources
+D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FCPemesanan.resources
+D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FCPrint.resources
+D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FObat.resources
+D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FPembayaran.resources
+D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FPembayaranObat.resources
+D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FPemesanan.resources
+D:\tugas kuliah\Project\pembelian_obat\PembelianObat\PembelianObat\obj\Debug\PembelianObat.FPemesananObat.resources
