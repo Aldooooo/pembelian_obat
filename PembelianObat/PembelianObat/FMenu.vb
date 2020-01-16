@@ -8,4 +8,14 @@
         FPengguna.Show()
         FPengguna.MdiParent = Me
     End Sub
+
+    Private Sub SupplierToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SupplierToolStripMenuItem.Click
+        FDistributor.Show()
+        FDistributor.MdiParent = Me
+    End Sub
+
+    Private Sub BarangToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles BarangToolStripMenuItem.Click
+        FObat.Show()
+        FObat .MdiParent = Me
+    End Sub
 End Class

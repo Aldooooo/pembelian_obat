@@ -28,7 +28,7 @@ Partial Class FPemensanan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(785, 534)
+        Me.ClientSize = New System.Drawing.Size(663, 482)
         Me.Name = "FPemensanan"
         Me.Text = "FPemensanan"
         Me.ResumeLayout(False)

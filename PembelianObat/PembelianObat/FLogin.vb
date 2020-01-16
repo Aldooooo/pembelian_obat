@@ -39,4 +39,8 @@ Public Class FLogin
             MsgBox("Data tak ditemukan", vbOKOnly + vbExclamation, "Pesan")
         End If
     End Sub
+
+    Private Sub FLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
