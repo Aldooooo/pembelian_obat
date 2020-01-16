@@ -33,19 +33,20 @@ Partial Class FPemesanan
         Me.ListView1 = New System.Windows.Forms.ListView()
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.Label8 = New System.Windows.Forms.Label()
         Me.bt_hapus = New System.Windows.Forms.Button()
         Me.bt_simpan = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.TextBox7 = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel3.SuspendLayout()
@@ -55,7 +56,7 @@ Partial Class FPemesanan
         'HapusToolStripMenuItem
         '
         Me.HapusToolStripMenuItem.Name = "HapusToolStripMenuItem"
-        Me.HapusToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.HapusToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
         Me.HapusToolStripMenuItem.Text = "Hapus"
         '
         'ContextMenuStrip1
@@ -67,13 +68,13 @@ Partial Class FPemesanan
         'UbahToolStripMenuItem
         '
         Me.UbahToolStripMenuItem.Name = "UbahToolStripMenuItem"
-        Me.UbahToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.UbahToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
         Me.UbahToolStripMenuItem.Text = "Ubah"
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(386, 33)
+        Me.Label7.Location = New System.Drawing.Point(12, 21)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(82, 13)
         Me.Label7.TabIndex = 12
@@ -90,10 +91,10 @@ Partial Class FPemesanan
         '
         'TextBox5
         '
-        Me.TextBox5.Location = New System.Drawing.Point(81, 15)
+        Me.TextBox5.Location = New System.Drawing.Point(72, 15)
         Me.TextBox5.Multiline = True
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(218, 45)
+        Me.TextBox5.Size = New System.Drawing.Size(218, 36)
         Me.TextBox5.TabIndex = 10
         '
         'Panel2
@@ -101,18 +102,19 @@ Partial Class FPemesanan
         Me.Panel2.BackColor = System.Drawing.SystemColors.Control
         Me.Panel2.Controls.Add(Me.ListView1)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(0, 112)
+        Me.Panel2.Location = New System.Drawing.Point(0, 118)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Padding = New System.Windows.Forms.Padding(10)
-        Me.Panel2.Size = New System.Drawing.Size(672, 171)
+        Me.Panel2.Size = New System.Drawing.Size(672, 161)
         Me.Panel2.TabIndex = 3
         '
         'ListView1
         '
         Me.ListView1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.ListView1.HideSelection = False
         Me.ListView1.Location = New System.Drawing.Point(10, 10)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(652, 151)
+        Me.ListView1.Size = New System.Drawing.Size(652, 141)
         Me.ListView1.TabIndex = 0
         Me.ListView1.UseCompatibleStateImageBehavior = False
         '
@@ -120,23 +122,59 @@ Partial Class FPemesanan
         '
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"Cash", "Kredit"})
-        Me.ComboBox2.Location = New System.Drawing.Point(490, 28)
+        Me.ComboBox2.Location = New System.Drawing.Point(105, 16)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(135, 21)
+        Me.ComboBox2.Size = New System.Drawing.Size(146, 21)
         Me.ComboBox2.TabIndex = 13
         '
         'Panel3
         '
         Me.Panel3.BackColor = System.Drawing.Color.LightSlateGray
-        Me.Panel3.Controls.Add(Me.ComboBox2)
-        Me.Panel3.Controls.Add(Me.Label7)
+        Me.Panel3.Controls.Add(Me.Label1)
+        Me.Panel3.Controls.Add(Me.TextBox2)
         Me.Panel3.Controls.Add(Me.Label6)
         Me.Panel3.Controls.Add(Me.TextBox5)
+        Me.Panel3.Controls.Add(Me.Label9)
+        Me.Panel3.Controls.Add(Me.TextBox6)
+        Me.Panel3.Controls.Add(Me.TextBox7)
+        Me.Panel3.Controls.Add(Me.Label8)
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel3.Location = New System.Drawing.Point(0, 283)
+        Me.Panel3.Location = New System.Drawing.Point(0, 279)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(672, 88)
+        Me.Panel3.Size = New System.Drawing.Size(672, 92)
         Me.Panel3.TabIndex = 4
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Location = New System.Drawing.Point(349, 47)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(72, 13)
+        Me.Label9.TabIndex = 20
+        Me.Label9.Text = "Nama Apotek"
+        '
+        'TextBox6
+        '
+        Me.TextBox6.Location = New System.Drawing.Point(442, 15)
+        Me.TextBox6.Name = "TextBox6"
+        Me.TextBox6.Size = New System.Drawing.Size(146, 20)
+        Me.TextBox6.TabIndex = 17
+        '
+        'TextBox7
+        '
+        Me.TextBox7.Location = New System.Drawing.Point(442, 44)
+        Me.TextBox7.Name = "TextBox7"
+        Me.TextBox7.Size = New System.Drawing.Size(146, 20)
+        Me.TextBox7.TabIndex = 19
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Location = New System.Drawing.Point(349, 18)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(45, 13)
+        Me.Label8.TabIndex = 18
+        Me.Label8.Text = "Jabatan"
         '
         'bt_hapus
         '
@@ -158,7 +196,7 @@ Partial Class FPemesanan
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(308, 48)
+        Me.Button1.Location = New System.Drawing.Point(301, 43)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 14
@@ -186,15 +224,6 @@ Partial Class FPemesanan
         Me.Label2.TabIndex = 6
         Me.Label2.Text = "Tanggal"
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 24)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(72, 13)
-        Me.Label1.TabIndex = 5
-        Me.Label1.Text = "Nama Industri"
-        '
         'DateTimePicker1
         '
         Me.DateTimePicker1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -205,65 +234,47 @@ Partial Class FPemesanan
         Me.DateTimePicker1.Size = New System.Drawing.Size(108, 20)
         Me.DateTimePicker1.TabIndex = 4
         '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(105, 21)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(146, 20)
-        Me.TextBox2.TabIndex = 2
-        '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.SlateGray
-        Me.Panel1.Controls.Add(Me.Label9)
-        Me.Panel1.Controls.Add(Me.TextBox7)
-        Me.Panel1.Controls.Add(Me.Label8)
-        Me.Panel1.Controls.Add(Me.TextBox6)
+        Me.Panel1.Controls.Add(Me.TextBox1)
+        Me.Panel1.Controls.Add(Me.ComboBox2)
+        Me.Panel1.Controls.Add(Me.Label7)
         Me.Panel1.Controls.Add(Me.bt_hapus)
         Me.Panel1.Controls.Add(Me.bt_simpan)
         Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.ProgressBar1)
         Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.DateTimePicker1)
-        Me.Panel1.Controls.Add(Me.TextBox2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(672, 112)
+        Me.Panel1.Size = New System.Drawing.Size(672, 118)
         Me.Panel1.TabIndex = 2
         '
-        'Label8
+        'TextBox1
         '
-        Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(12, 54)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(45, 13)
-        Me.Label8.TabIndex = 18
-        Me.Label8.Text = "Jabatan"
+        Me.TextBox1.Location = New System.Drawing.Point(105, 43)
+        Me.TextBox1.Multiline = True
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(146, 63)
+        Me.TextBox1.TabIndex = 17
         '
-        'TextBox6
+        'TextBox2
         '
-        Me.TextBox6.Location = New System.Drawing.Point(105, 51)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(146, 20)
-        Me.TextBox6.TabIndex = 17
+        Me.TextBox2.Location = New System.Drawing.Point(72, 57)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(146, 20)
+        Me.TextBox2.TabIndex = 21
         '
-        'Label9
+        'Label1
         '
-        Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(12, 83)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(72, 13)
-        Me.Label9.TabIndex = 20
-        Me.Label9.Text = "Nama Apotek"
-        '
-        'TextBox7
-        '
-        Me.TextBox7.Location = New System.Drawing.Point(105, 80)
-        Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(146, 20)
-        Me.TextBox7.TabIndex = 19
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(21, 60)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(35, 13)
+        Me.Label1.TabIndex = 22
+        Me.Label1.Text = "Nama"
         '
         'FPemesanan
         '
@@ -299,12 +310,13 @@ Partial Class FPemesanan
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents DateTimePicker1 As System.Windows.Forms.DateTimePicker
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Label9 As System.Windows.Forms.Label
     Friend WithEvents TextBox7 As System.Windows.Forms.TextBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents TextBox6 As System.Windows.Forms.TextBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents TextBox2 As TextBox
 End Class
